@@ -30,6 +30,83 @@
   background-image: url("../img/dadads.jpg");
 }
 
+.ft_content{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+
+@media(min-width: 920px){
+  .ft_content{
+    width: 100%;
+    margin: auto;
+    padding-left: 10px;
+    height: 200px;
+  }
+
+  .ft_p{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+}
+
+@media(max-width: 921px){
+  .bg-what{
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/dadads1.jpg");
+  }
+
+  .ft_p{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+
+  .ft_content{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+
+  
+}
+
+@media(max-width: 857px){
+  .bg-what{
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-image: url("../img/dadads.jpg");
+  }
+
+  .ft_p{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-right: 20px;
+  }
+
+  .ft_content{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+}
+
+@media(min-width: 420px){
+  .ft_content{
+    width: 100%;
+  }
+}
+
+
 /* Portfolio */
 #portfolio .portfolio-item .portfolio-caption p,section h3.section-subheading{
   font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -117,7 +194,7 @@
  }
 
 /* Multicoloured Hover Variations */
- 
+
  #social-fb, #social-ig, #social-ln, #social-gh, #social-em{
     padding-left: 20px;
  }
